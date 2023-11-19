@@ -35,9 +35,9 @@ int main()
 
     Rectangle* rectangles = new Rectangle[3];
 
-    rectangles[0] = Rectangle(1, 1, 4, 4);
-    rectangles[1] = Rectangle(1, 1, 4, 4);
-    rectangles[2] = Rectangle(1, 1, 4, 4);
+    rectangles[0] = Rectangle(1, 1, 1, 1);
+    rectangles[1] = Rectangle(1, 1, 5, 5);
+    rectangles[2] = Rectangle(3, 3, 6, 6);
 
     for (int i = 0; i < 3; i++) 
         rectangles[i].Get_val();

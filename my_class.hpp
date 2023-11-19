@@ -32,7 +32,7 @@ public:
  
     void Get_val();
     
-    void Set_val(int x, int y, int x2, int y2);
+    void Set_val(int x2, int y2);
 
     
 };
@@ -52,6 +52,8 @@ public:
     void Get_area();
   
     void Get_val();
+
+    void Set_val();
  
 };
 class Rectangle : public Square
@@ -70,7 +72,7 @@ public:
  
     void Get_perimeter();
  
-    void Set_val(int x, int y, int x2, int y2, int x3, int y3, int x4, int y4);
+    void Set_val();
 
     void Get_val();
 
@@ -87,7 +89,7 @@ public:
  
     void Get_val();
   
-    void Set_val(int x, int y);
+    void Set_val(double radius);
   
 
 };
@@ -102,7 +104,7 @@ public:
   
     void Get_val();
    
-    void Set_val(int x, int y, double rx, double ry);
+    void Set_val(double rx, double ry);
  
 
 };
