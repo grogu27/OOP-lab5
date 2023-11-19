@@ -3,9 +3,7 @@ using namespace std;
     Figure::Figure()
     {
         //cout <<"Конструктор по умолчанию Figure"<< endl;
-        this->x = rand() % 10;
-        this->y = rand() % 10;
-        Set_val(x, y);
+        Set_val(rand() % 10, rand() % 10);
         //cout << "x = " << this->x << "\t" << "y = " << this->y << endl;
     }
     Figure::Figure(int x, int y)
